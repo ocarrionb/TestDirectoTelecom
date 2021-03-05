@@ -1,0 +1,24 @@
+{
+  "name": "testbackend",
+  "version": "1.0.0",
+  "description": "Back End Sr Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*app_test.js",
+    "test-new": "nodemon --exec \"npm test\"",
+    "start": "nodemon index.js"
+  },
+  "author": "Octavio Carrión Barrera",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jwt-simple": "^0.5.6",
+    "mocha": "^8.3.0",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}
